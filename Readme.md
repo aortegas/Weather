@@ -13,10 +13,10 @@ Developed with Xcode, Objective-C.
 ### ScreenShots
 
 ##### First Screen (Search Cities, places)
-![](images/IMG_0015.PNG)
-
-##### Second Screen (Weather data detail)
 ![](images/IMG_0016.PNG)
 
-##### Third Screen (Previous searches)
+##### Second Screen (Weather data detail)
 ![](images/IMG_0017.PNG)
+
+##### Third Screen (Previous searches)
+![](images/IMG_0018.PNG)
