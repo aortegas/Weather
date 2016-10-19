@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AOSDetailCityVC">
+            <connections>
+                <outlet property="activityView" destination="3Td-UF-7OS" id="PN8-v8-7Tw"/>
+                <outlet property="coulds" destination="bmB-d7-vgu" id="ES4-OV-any"/>
+                <outlet property="humidityLabel" destination="0FM-v0-kpY" id="5LE-eP-tiW"/>
+                <outlet property="pointsMap" destination="KWD-v3-xfW" id="pO5-ut-Kf2"/>
+                <outlet property="progressView" destination="PEG-qK-f4t" id="ReT-2R-kvY"/>
+                <outlet property="temperature" destination="7cQ-af-DAU" id="Ex1-D2-xzq"/>
+                <outlet property="view" destination="iN0-l3-epB" id="GGd-YV-c4s"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cQ-af-DAU">
+                    <rect key="frame" x="250" y="15" width="100" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="tes-mB-pLV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KWD-v3-xfW">
+                    <rect key="frame" x="25" y="144.5" width="550" height="366.5"/>
+                </mapView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="3Td-UF-7OS">
+                    <rect key="frame" x="555" y="25" width="20" height="20"/>
+                    <color key="color" red="0.086274509799999996" green="0.59999999999999998" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FM-v0-kpY">
+                    <rect key="frame" x="284" y="84" width="33" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Observation Points:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rW-Fq-MPK">
+                    <rect key="frame" x="25" y="120" width="161.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="PEG-qK-f4t">
+                    <rect key="frame" x="275.5" y="46" width="50" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="Kog-kT-wW1"/>
+                        <constraint firstAttribute="width" constant="50" id="N5q-GF-oe7"/>
+                    </constraints>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmB-d7-vgu">
+                    <rect key="frame" x="150" y="58" width="300" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="E0n-Bx-btG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KWD-v3-xfW" secondAttribute="bottom" constant="25" id="4BC-6V-Zpn"/>
+                <constraint firstItem="7rW-Fq-MPK" firstAttribute="top" secondItem="0FM-v0-kpY" secondAttribute="bottom" constant="20" id="4nv-kI-bPg"/>
+                <constraint firstItem="3Td-UF-7OS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="6FL-6Q-k2R"/>
+                <constraint firstItem="0FM-v0-kpY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9kM-Hh-t9M"/>
+                <constraint firstItem="0FM-v0-kpY" firstAttribute="top" secondItem="bmB-d7-vgu" secondAttribute="bottom" constant="10" id="C4E-Bp-pVe"/>
+                <constraint firstItem="KWD-v3-xfW" firstAttribute="top" secondItem="7rW-Fq-MPK" secondAttribute="bottom" constant="10" id="K0D-hh-Jot"/>
+                <constraint firstItem="7cQ-af-DAU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Kqe-t0-EMR"/>
+                <constraint firstItem="bmB-d7-vgu" firstAttribute="top" secondItem="PEG-qK-f4t" secondAttribute="bottom" constant="10" id="LbE-PX-Foe"/>
+                <constraint firstItem="PEG-qK-f4t" firstAttribute="leading" secondItem="7cQ-af-DAU" secondAttribute="trailing" constant="10" id="SbP-A4-oKM"/>
+                <constraint firstAttribute="trailing" secondItem="3Td-UF-7OS" secondAttribute="trailing" constant="25" id="U6i-mZ-Shs"/>
+                <constraint firstItem="KWD-v3-xfW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="X7X-Ub-FY2"/>
+                <constraint firstItem="PEG-qK-f4t" firstAttribute="top" secondItem="7cQ-af-DAU" secondAttribute="bottom" constant="2" id="XFF-ng-9qL"/>
+                <constraint firstItem="bmB-d7-vgu" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="aVu-DT-0f7"/>
+                <constraint firstItem="7rW-Fq-MPK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="dMZ-kH-dTW"/>
+                <constraint firstItem="PEG-qK-f4t" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="glr-Se-tyd"/>
+                <constraint firstAttribute="trailing" secondItem="KWD-v3-xfW" secondAttribute="trailing" constant="25" id="xFu-gF-2Dc"/>
+                <constraint firstItem="7cQ-af-DAU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="xTa-z9-Mp9"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="SbP-A4-oKM"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-225" y="308"/>
+        </view>
+    </objects>
+</document>

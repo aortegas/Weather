@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AOSSearchCityVC.h
 //  Weather
 //
 //  Created by Alberto on 17/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AOSSearchCityVC : UIViewController
 
 @end
-

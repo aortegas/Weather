@@ -9,10 +9,23 @@
 /* Begin PBXBuildFile section */
 		D38D08BA1DB53C44006268FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08B91DB53C44006268FA /* main.m */; };
 		D38D08BD1DB53C44006268FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08BC1DB53C44006268FA /* AppDelegate.m */; };
-		D38D08C01DB53C44006268FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08BF1DB53C44006268FA /* ViewController.m */; };
-		D38D08C31DB53C44006268FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38D08C11DB53C44006268FA /* Main.storyboard */; };
 		D38D08C51DB53C44006268FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38D08C41DB53C44006268FA /* Assets.xcassets */; };
 		D38D08C81DB53C44006268FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38D08C61DB53C44006268FA /* LaunchScreen.storyboard */; };
+		D38D08D41DB53E28006268FA /* AOSSearchCityVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38D08D21DB53E28006268FA /* AOSSearchCityVC.xib */; };
+		D38D08D71DB54315006268FA /* AOSSearchCityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08D61DB54315006268FA /* AOSSearchCityVC.m */; };
+		D38D08E01DB57327006268FA /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08DF1DB57327006268FA /* City.m */; };
+		D38D08E51DB5767F006268FA /* WeatherDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08E41DB5767F006268FA /* WeatherDownloadManager.m */; };
+		D38D08E91DB58417006268FA /* JSONProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08E81DB58417006268FA /* JSONProcessing.m */; };
+		D38D08ED1DB5F9A8006268FA /* WeatherDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08EC1DB5F9A8006268FA /* WeatherDataManager.m */; };
+		D38D08F21DB629F4006268FA /* AOSDetailCityVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38D08F11DB629F4006268FA /* AOSDetailCityVC.xib */; };
+		D38D08F51DB62D25006268FA /* AOSDetailCityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08F41DB62D25006268FA /* AOSDetailCityVC.m */; };
+		D38D08F71DB62D8D006268FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38D08F61DB62D8D006268FA /* MapKit.framework */; };
+		D38D08FA1DB684BD006268FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38D08F91DB684BD006268FA /* CoreLocation.framework */; };
+		D38D08FD1DB686B0006268FA /* WeatherObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08FC1DB686B0006268FA /* WeatherObservation.m */; };
+		D38D09001DB6DA3B006268FA /* AOSObservationAnnotationMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D08FF1DB6DA3B006268FA /* AOSObservationAnnotationMap.m */; };
+		D38D09091DB7BED3006268FA /* AOSPreviousSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D09071DB7BED3006268FA /* AOSPreviousSearchTableViewController.m */; };
+		D38D090A1DB7BED3006268FA /* AOSPreviousSearchTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38D09081DB7BED3006268FA /* AOSPreviousSearchTableViewController.xib */; };
+		D38D090E1DB7D20E006268FA /* PreviousSearches.m in Sources */ = {isa = PBXBuildFile; fileRef = D38D090D1DB7D20E006268FA /* PreviousSearches.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +33,38 @@
 		D38D08B91DB53C44006268FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D38D08BB1DB53C44006268FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D38D08BC1DB53C44006268FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D38D08BE1DB53C44006268FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D38D08BF1DB53C44006268FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D38D08C21DB53C44006268FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D38D08C41DB53C44006268FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38D08C71DB53C44006268FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38D08C91DB53C44006268FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38D08D21DB53E28006268FA /* AOSSearchCityVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOSSearchCityVC.xib; sourceTree = "<group>"; };
+		D38D08D51DB54315006268FA /* AOSSearchCityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOSSearchCityVC.h; sourceTree = "<group>"; };
+		D38D08D61DB54315006268FA /* AOSSearchCityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOSSearchCityVC.m; sourceTree = "<group>"; };
+		D38D08D91DB56796006268FA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D38D08DB1DB56A6C006268FA /* Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		D38D08DE1DB57327006268FA /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		D38D08DF1DB57327006268FA /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		D38D08E21DB575EA006268FA /* WeatherDownloadManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherDownloadManagerDelegate.h; sourceTree = "<group>"; };
+		D38D08E31DB5767F006268FA /* WeatherDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDownloadManager.h; sourceTree = "<group>"; };
+		D38D08E41DB5767F006268FA /* WeatherDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDownloadManager.m; sourceTree = "<group>"; };
+		D38D08E71DB58417006268FA /* JSONProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONProcessing.h; sourceTree = "<group>"; };
+		D38D08E81DB58417006268FA /* JSONProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONProcessing.m; sourceTree = "<group>"; };
+		D38D08EA1DB5F951006268FA /* WeatherDataManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherDataManagerDelegate.h; sourceTree = "<group>"; };
+		D38D08EB1DB5F9A8006268FA /* WeatherDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDataManager.h; sourceTree = "<group>"; };
+		D38D08EC1DB5F9A8006268FA /* WeatherDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDataManager.m; sourceTree = "<group>"; };
+		D38D08F11DB629F4006268FA /* AOSDetailCityVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOSDetailCityVC.xib; sourceTree = "<group>"; };
+		D38D08F31DB62D25006268FA /* AOSDetailCityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOSDetailCityVC.h; sourceTree = "<group>"; };
+		D38D08F41DB62D25006268FA /* AOSDetailCityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOSDetailCityVC.m; sourceTree = "<group>"; };
+		D38D08F61DB62D8D006268FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D38D08F91DB684BD006268FA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D38D08FB1DB686B0006268FA /* WeatherObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherObservation.h; sourceTree = "<group>"; };
+		D38D08FC1DB686B0006268FA /* WeatherObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObservation.m; sourceTree = "<group>"; };
+		D38D08FE1DB6DA3B006268FA /* AOSObservationAnnotationMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOSObservationAnnotationMap.h; sourceTree = "<group>"; };
+		D38D08FF1DB6DA3B006268FA /* AOSObservationAnnotationMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOSObservationAnnotationMap.m; sourceTree = "<group>"; };
+		D38D09061DB7BED3006268FA /* AOSPreviousSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOSPreviousSearchTableViewController.h; sourceTree = "<group>"; };
+		D38D09071DB7BED3006268FA /* AOSPreviousSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOSPreviousSearchTableViewController.m; sourceTree = "<group>"; };
+		D38D09081DB7BED3006268FA /* AOSPreviousSearchTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOSPreviousSearchTableViewController.xib; sourceTree = "<group>"; };
+		D38D090C1DB7D20E006268FA /* PreviousSearches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviousSearches.h; sourceTree = "<group>"; };
+		D38D090D1DB7D20E006268FA /* PreviousSearches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviousSearches.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38D08FA1DB684BD006268FA /* CoreLocation.framework in Frameworks */,
+				D38D08F71DB62D8D006268FA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,14 +99,11 @@
 		D38D08B71DB53C44006268FA /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				D38D08BB1DB53C44006268FA /* AppDelegate.h */,
-				D38D08BC1DB53C44006268FA /* AppDelegate.m */,
-				D38D08BE1DB53C44006268FA /* ViewController.h */,
-				D38D08BF1DB53C44006268FA /* ViewController.m */,
-				D38D08C11DB53C44006268FA /* Main.storyboard */,
-				D38D08C41DB53C44006268FA /* Assets.xcassets */,
-				D38D08C61DB53C44006268FA /* LaunchScreen.storyboard */,
-				D38D08C91DB53C44006268FA /* Info.plist */,
+				D38D08D81DB566E7006268FA /* Common */,
+				D38D08DC1DB56C8C006268FA /* Models */,
+				D38D08DA1DB568DD006268FA /* Views */,
+				D38D08CF1DB53DCA006268FA /* Controllers */,
+				D38D08F81DB62D96006268FA /* Frameworks */,
 				D38D08B81DB53C44006268FA /* Supporting Files */,
 			);
 			path = Weather;
@@ -77,6 +115,99 @@
 				D38D08B91DB53C44006268FA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D38D08CF1DB53DCA006268FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08D51DB54315006268FA /* AOSSearchCityVC.h */,
+				D38D08D61DB54315006268FA /* AOSSearchCityVC.m */,
+				D38D08F31DB62D25006268FA /* AOSDetailCityVC.h */,
+				D38D08F41DB62D25006268FA /* AOSDetailCityVC.m */,
+				D38D08FE1DB6DA3B006268FA /* AOSObservationAnnotationMap.h */,
+				D38D08FF1DB6DA3B006268FA /* AOSObservationAnnotationMap.m */,
+				D38D09061DB7BED3006268FA /* AOSPreviousSearchTableViewController.h */,
+				D38D09071DB7BED3006268FA /* AOSPreviousSearchTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D38D08D81DB566E7006268FA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08BB1DB53C44006268FA /* AppDelegate.h */,
+				D38D08BC1DB53C44006268FA /* AppDelegate.m */,
+				D38D08D91DB56796006268FA /* Constants.h */,
+				D38D08DB1DB56A6C006268FA /* Location.h */,
+				D38D08C41DB53C44006268FA /* Assets.xcassets */,
+				D38D08C61DB53C44006268FA /* LaunchScreen.storyboard */,
+				D38D08C91DB53C44006268FA /* Info.plist */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D38D08DA1DB568DD006268FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08D21DB53E28006268FA /* AOSSearchCityVC.xib */,
+				D38D08F11DB629F4006268FA /* AOSDetailCityVC.xib */,
+				D38D09081DB7BED3006268FA /* AOSPreviousSearchTableViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D38D08DC1DB56C8C006268FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08E11DB575C6006268FA /* Network */,
+				D38D08E61DB583DC006268FA /* JSON */,
+				D38D08DD1DB571D0006268FA /* Model */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D38D08DD1DB571D0006268FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08EA1DB5F951006268FA /* WeatherDataManagerDelegate.h */,
+				D38D08EB1DB5F9A8006268FA /* WeatherDataManager.h */,
+				D38D08EC1DB5F9A8006268FA /* WeatherDataManager.m */,
+				D38D08DE1DB57327006268FA /* City.h */,
+				D38D08DF1DB57327006268FA /* City.m */,
+				D38D08FB1DB686B0006268FA /* WeatherObservation.h */,
+				D38D08FC1DB686B0006268FA /* WeatherObservation.m */,
+				D38D090C1DB7D20E006268FA /* PreviousSearches.h */,
+				D38D090D1DB7D20E006268FA /* PreviousSearches.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D38D08E11DB575C6006268FA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08E21DB575EA006268FA /* WeatherDownloadManagerDelegate.h */,
+				D38D08E31DB5767F006268FA /* WeatherDownloadManager.h */,
+				D38D08E41DB5767F006268FA /* WeatherDownloadManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		D38D08E61DB583DC006268FA /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08E71DB58417006268FA /* JSONProcessing.h */,
+				D38D08E81DB58417006268FA /* JSONProcessing.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		D38D08F81DB62D96006268FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08F91DB684BD006268FA /* CoreLocation.framework */,
+				D38D08F61DB62D8D006268FA /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38D08F21DB629F4006268FA /* AOSDetailCityVC.xib in Resources */,
 				D38D08C81DB53C44006268FA /* LaunchScreen.storyboard in Resources */,
+				D38D08D41DB53E28006268FA /* AOSSearchCityVC.xib in Resources */,
 				D38D08C51DB53C44006268FA /* Assets.xcassets in Resources */,
-				D38D08C31DB53C44006268FA /* Main.storyboard in Resources */,
+				D38D090A1DB7BED3006268FA /* AOSPreviousSearchTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +282,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38D08C01DB53C44006268FA /* ViewController.m in Sources */,
+				D38D090E1DB7D20E006268FA /* PreviousSearches.m in Sources */,
+				D38D08D71DB54315006268FA /* AOSSearchCityVC.m in Sources */,
 				D38D08BD1DB53C44006268FA /* AppDelegate.m in Sources */,
+				D38D09001DB6DA3B006268FA /* AOSObservationAnnotationMap.m in Sources */,
+				D38D08E01DB57327006268FA /* City.m in Sources */,
+				D38D09091DB7BED3006268FA /* AOSPreviousSearchTableViewController.m in Sources */,
 				D38D08BA1DB53C44006268FA /* main.m in Sources */,
+				D38D08F51DB62D25006268FA /* AOSDetailCityVC.m in Sources */,
+				D38D08E91DB58417006268FA /* JSONProcessing.m in Sources */,
+				D38D08FD1DB686B0006268FA /* WeatherObservation.m in Sources */,
+				D38D08ED1DB5F9A8006268FA /* WeatherDataManager.m in Sources */,
+				D38D08E51DB5767F006268FA /* WeatherDownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D38D08C11DB53C44006268FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D38D08C21DB53C44006268FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D38D08C61DB53C44006268FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
